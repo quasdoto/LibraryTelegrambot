@@ -19,7 +19,7 @@ def get_book_by_id(id):
             return book
     return None
 
-bot = telebot.TeleBot('6416786783:AAEuBwVtae0q5TF-FixwgHQLcPmlacjfywo')
+bot = telebot.TeleBot('your_token')
 
 buttons_genre = {'💻IT':'IT', '💼Бизнес':'Business', '📈Трейдинг':'Trading', '🧠Саморазвитие':'Self Improvement', '📖Психология':'Psychology'}
 
